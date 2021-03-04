@@ -1,0 +1,20 @@
+{% extends 'app1/homePage.html' %}
+
+
+{% block Content %}
+
+    <div class="display_details">
+
+        {% for item in details %}
+
+            <h2>{{ item.name }}</h2>
+            <h2>{{ item.game }}</h2>
+            <h2>{{ item.country }}</h2>
+            <h2>{{ item.phone }}</h2><br>
+
+        {% endfor %}
+
+    </div>
+
+
+{% endblock Content %}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input_details{
+
+    padding: 20px 20px;
+
+    text-align: center;
+
+    min-height: 50%;
+    width: 100%;
+
+    background: cyan;
+
+    font-family: 'Architects Daughter', cursive;
+}
+
+.input_details label{
+    margin-left: 20px;
+}
+
+.display_details{
+
+   text-align: center;
+
+    min-height: 50%;
+    width: 100%;
+
+    background: antiquewhite;
+
+    font-family: 'Architects Daughter', cursive;
+}
+
+.display_details h2{
+    margin-left: 20px;
+}
